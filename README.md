@@ -45,7 +45,10 @@ Given the performance of our code, the execution time is proportional to the num
 
 #### Actual Output
 
-The program successfully calculated the expected accelerations for the given test case, demonstrating its correctness.
+![image](https://github.com/user-attachments/assets/04d639c5-ee95-48a0-8870-4aee290438ba)
+
+
+As shown above, the program successfully calculated the expected accelerations for the given test case, showing that the program is correct.
 
 ## How to Use the Program
 
@@ -70,7 +73,3 @@ Ensure that Visual Studio Community 2022 is set up, and you have access to **gcc
 - **asmfunc.asm**: The assembly file that contains the function `compute_acceleration`, which uses SIMD registers and instructions to efficiently compute acceleration values.
 
 - **10.c, 100.c, 1000.c, 10000.c, 100000.c**: C files similar to the main file but tailored for specific test cases involving **10**, **100**, **1,000**, **10,000**, and **100,000** cars. These programs use `srand()` for random inputs and run **30 times** to calculate the average execution time for each test case.
-
-## License
-
-This project is for educational purposes only.
